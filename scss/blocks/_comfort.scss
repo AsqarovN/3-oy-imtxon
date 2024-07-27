@@ -1,0 +1,92 @@
+.comfort_title_wrapper{
+    max-width: 769px;
+    height: 453px;
+    background-color: #0B7572;
+    display: flex;
+    padding-left: 90px;
+    align-items: center;
+    clip-path: polygon(0 0, 54% 0, 100% 100%, 0% 100%);
+}
+
+.comfort_title {
+    max-width: 1240px;
+    height: 453px;
+    background-image: url(../images/comfort_title.png);
+    
+}
+
+.comfort_title_text {
+    width: 362px;
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Exo 2";
+    line-height: 60px;
+
+}
+
+.comfort_list {
+    padding-top: 72px;
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 60px;
+}
+
+.comfort_item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 60px;
+}
+
+.comfort_item_text {
+    max-width: 291px;
+}
+
+.comfort_main_text {
+    font-size: 20px;
+    font-family: "Exo 2";
+    font-weight: 600;
+    line-height: 27px;
+    color: #363738;
+}
+
+.comfort_text {
+    @include text();
+    padding-top: 16px;
+}
+
+@media (max-width:1041px) {
+    .comfort_section {
+        padding-top: 97px;
+    }
+    .comfort_title {
+        width: 729px;
+        height: 383px;
+        margin: 0 auto;
+        background-image: url(../images/comfort_title_tablet.png);
+    }
+    .comfort_title_wrapper {
+        width: 600px;
+        height: 383px;
+    }
+    .comfort_title_text {
+        font-size: 44px;
+        line-height: 55px;
+    }
+    .comfort_list {
+        gap: 50px;
+    }
+    .comfort_item {
+        margin: 0 auto;
+        width: 537px;
+        height: 88px;
+        gap: 48px;
+    }
+}
+
+@media (max-width:766px) {
+    .comfort_section {
+        display: none;
+    }
+}

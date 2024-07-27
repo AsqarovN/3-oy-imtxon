@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Exo 2';
+    src: url('../fonts/Exo2-Medium.woff2') format('woff2'),
+        url('../fonts/Exo2-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/PTSans-Regular.woff2') format('woff2'),
+        url('../fonts/PTSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
